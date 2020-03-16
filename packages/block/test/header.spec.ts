@@ -1,6 +1,6 @@
 import tape = require('tape')
-import Common from 'ethereumjs-common'
-import Blockchain from 'ethereumjs-blockchain'
+import Common from '@ethereumjs/common'
+import Blockchain from '@ethereumjs/blockchain'
 import * as utils from 'ethereumjs-util'
 import { rlp } from 'ethereumjs-util'
 import { BlockHeader } from '../src/header'

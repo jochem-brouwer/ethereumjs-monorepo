@@ -1,4 +1,4 @@
-import { FakeTransaction } from 'ethereumjs-tx'
+import { FakeTransaction } from '@ethereumjs/tx'
 import * as ethUtil from 'ethereumjs-util'
 import { Block, ChainOptions } from './index'
 

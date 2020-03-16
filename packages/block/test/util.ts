@@ -1,4 +1,4 @@
-import Blockchain from 'ethereumjs-blockchain'
+import Blockchain from '@ethereumjs/blockchain'
 import { toBuffer } from 'ethereumjs-util'
 import { Block } from '../src/block'
 import { BlockHeader } from '../src/header'

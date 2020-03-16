@@ -1,4 +1,4 @@
-import Common from 'ethereumjs-common'
+import Common from '@ethereumjs/common'
 import * as utils from 'ethereumjs-util'
 import { BN } from 'ethereumjs-util'
 import { Blockchain, BlockHeaderData, BufferLike, ChainOptions, PrefixedHexString } from './types'

@@ -1,7 +1,7 @@
-import Common from 'ethereumjs-common'
+import Common from '@ethereumjs/common'
 import * as ethUtil from 'ethereumjs-util'
 import { BN, rlp } from 'ethereumjs-util'
-import { Transaction } from 'ethereumjs-tx'
+import { Transaction } from '@ethereumjs/tx'
 
 import { BlockHeader } from './header'
 import { Blockchain, BlockData, ChainOptions } from './types'
