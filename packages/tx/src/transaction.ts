@@ -10,7 +10,7 @@ import {
   rlp,
   stripZeros,
 } from 'ethereumjs-util'
-import Common from 'ethereumjs-common'
+import Common from '@ethereumjs/common'
 import { Buffer } from 'buffer'
 import { BufferLike, PrefixedHexString, TxData, TransactionOptions } from './types'
 
