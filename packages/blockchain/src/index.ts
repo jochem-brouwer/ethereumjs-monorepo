@@ -1,6 +1,6 @@
 import * as async from 'async'
 import { BN, rlp } from 'ethereumjs-util'
-import Common from 'ethereumjs-common'
+import Common from '@ethereumjs/common'
 import { callbackify } from './callbackify'
 import DBManager from './dbManager'
 import {
@@ -14,7 +14,7 @@ import {
   tdKey,
 } from './util'
 
-const Block = require('ethereumjs-block')
+const Block = require('@ethereumjs/block')
 const Ethash = require('ethashjs')
 const Stoplight = require('flow-stoplight')
 const level = require('level-mem')

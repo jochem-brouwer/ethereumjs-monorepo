@@ -1,5 +1,5 @@
 import * as async from 'async'
-import Common from 'ethereumjs-common'
+import Common from '@ethereumjs/common'
 import { toBuffer, bufferToInt } from 'ethereumjs-util'
 import * as test from 'tape'
 import Blockchain, { Block } from '../src'
@@ -7,7 +7,7 @@ import { generateBlockchain, generateBlocks, isConsecutive, createTestDB } from 
 
 import BN = require('bn.js')
 
-const Block = require('ethereumjs-block')
+const Block = require('@ethereumjs/block')
 const level = require('level-mem')
 const testData = require('./testdata.json')
 
