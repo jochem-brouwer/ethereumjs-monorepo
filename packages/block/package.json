@@ -1,5 +1,5 @@
 {
-  "name": "ethereumjs-block",
+  "name": "@ethereumjs/block",
   "version": "2.2.0",
   "description": "Provides Block serialization and help functions",
   "main": "dist/index.js",
@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ethereumjs/ethereumjs-block.git"
+    "url": "git+https://github.com/ethereumjs/ethereumjs-vm.git"
   },
   "keywords": [
     "ethereum",
@@ -40,17 +40,18 @@
   "author": "mjbecze (mb@ethdev.com)",
   "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/ethereumjs/ethereumjs-block/issues"
+    "url": "https://github.com/ethereumjs/ethereumjs-vm/issues?q=is%3Aissue+label%3A\"package%3A+block\""
   },
-  "homepage": "https://github.com/ethereumjs/ethereumjs-block#readme",
+  "homepage": "https://github.com/ethereumjs/ethereumjs-vm/tree/master/packages/block#synopsis",
   "dependencies": {
+    "@ethereumjs/common": "^1.5.0",
+    "@ethereumjs/tx": "^2.1.1",
+    "@ethereumjs/util": "^6.1.0",
     "@types/bn.js": "^4.11.5",
-    "ethereumjs-common": "^1.5.0",
-    "ethereumjs-tx": "^2.1.1",
-    "ethereumjs-util": "^6.1.0",
     "merkle-patricia-tree": "^2.1.2"
   },
   "devDependencies": {
+    "@ethereumjs/blockchain": "^4.0.3",
     "@ethereumjs/config-nyc": "^1.1.1",
     "@ethereumjs/config-prettier": "^1.1.1",
     "@ethereumjs/config-tsc": "^1.1.1",
@@ -59,7 +60,6 @@
     "@types/node": "^11.13.4",
     "@types/tape": "^4.2.33",
     "browserify": "^16.2.3",
-    "ethereumjs-blockchain": "^4.0.3",
     "husky": "^2.1.0",
     "istanbul": "^0.4.1",
     "karma": "^4.1.0",
