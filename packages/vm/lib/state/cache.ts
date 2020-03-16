@@ -1,6 +1,6 @@
 const asyncLib = require('async')
 const Tree = require('functional-red-black-tree')
-import Account from 'ethereumjs-account'
+import Account from '@ethereumjs/account'
 
 /**
  * @ignore

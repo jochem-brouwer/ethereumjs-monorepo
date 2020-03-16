@@ -1,5 +1,5 @@
 const promisify = require('util.promisify')
-import Account from 'ethereumjs-account'
+import Account from '@ethereumjs/account'
 import { default as StateManager, StorageDump } from './stateManager'
 
 /**

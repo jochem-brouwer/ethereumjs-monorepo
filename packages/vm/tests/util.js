@@ -2,9 +2,9 @@ const async = require('async')
 const utils = require('ethereumjs-util')
 const BN = utils.BN
 const rlp = utils.rlp
-const Account = require('ethereumjs-account').default
-const Transaction = require('ethereumjs-tx').Transaction
-const Block = require('ethereumjs-block')
+const Account = require('@ethereumjs/account').default
+const Transaction = require('@ethereumjs/tx').Transaction
+const Block = require('@ethereumjs/block')
 
 exports.dumpState = function(state, cb) {
   function readAccounts(state) {

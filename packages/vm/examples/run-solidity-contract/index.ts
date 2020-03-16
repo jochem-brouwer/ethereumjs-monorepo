@@ -5,8 +5,8 @@ import * as path from 'path'
 import * as fs from 'fs'
 import { promisify } from 'util'
 import * as util from 'ethereumjs-util'
-import Account from 'ethereumjs-account'
-import { Transaction } from 'ethereumjs-tx'
+import Account from '@ethereumjs/account'
+import { Transaction } from '@ethereumjs/tx'
 const abi = require('ethereumjs-abi')
 const solc = require('solc')
 

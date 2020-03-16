@@ -1,8 +1,8 @@
 import VM from '../..'
-import Account from 'ethereumjs-account'
+import Account from '@ethereumjs/account'
 import * as utils from 'ethereumjs-util'
 import PStateManager from '../../lib/state/promisified'
-import { Transaction } from 'ethereumjs-tx'
+import { Transaction } from '@ethereumjs/tx'
 
 async function main() {
   const vm = new VM()

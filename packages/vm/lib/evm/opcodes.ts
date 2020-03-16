@@ -1,4 +1,4 @@
-import Common from 'ethereumjs-common'
+import Common from '@ethereumjs/common'
 
 export interface Opcode {
   name: string
